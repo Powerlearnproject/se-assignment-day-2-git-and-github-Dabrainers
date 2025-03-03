@@ -85,7 +85,7 @@ Github Project boards help developers organize their tasks in a visual manner us
 Github issues and Github project board improves team work by enabling them to track progress of what they are working on. They can see what is completed and what is still pending. In addition, they can leave comments and ask questions directly on issues and finally, by creating an issue and allocating it to a member, every team member knows exactly what to work on. Generally, Github Issues and Project boards enable teams to stay organized, track progress and work together efficiently. 
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
-While Gi is a powerful system for version control new users encounter the following challenges; 
+While Git is a powerful system for version control new users encounter the following challenges; 
 1.	In understanding Git commands such as “git commit” and “git push”. This can be solved by starting off with simple commands and progress to complex ones as familiarity sets in. 
 2.	Merge conflicts. Merge conflicts can be resolved through effective communication and use of Github’s Conflict resolution tool.
 3.	Forgetting to pull before pushing.  New users can resolve this challenge by always running “git pull” before “git push”.
