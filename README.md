@@ -47,6 +47,15 @@ Restriction of access to code, confidential work and prevention of modification 
 In conclusion, the right repository for collaboration will be determined by the goals, security needs and collaboration style of the people involved, public repository is fit for open-source projects that one would want to share with the world or if one is starting of and needs feedback, while Private repository, will be a good fit when one is working on a company project that requires confidentiality and wants to control contributors of the project. 
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+A commit in Git can be defined as a snapshot of a project at a specific moment that records changes. It allows developers to track progress over time.  Commits allows users to switch between different versions of their project and enables other developers to see what changes have been made and contribute to the project without conflicts. In addition, by using Commit users can be able to roll back to an earlier commit. 
+After installing Git, users will configure it by setting up their username and GitHub email. Then, they will follow these steps to make a commit to a GitHub repository
+1.	Create a GitHub repository by going to GitHub, clicking the plus (+) sign, selecting "New Repository," and giving it a unique, descriptive name.
+2.	Initialize Git in their project by navigating to my project folder in the terminal and running: git init, which makes a hidden .git folder, making their directory a Git repository. 
+3.	Track changes by adding files to the staging area using “git add”.
+4.	Commit the changes with a message, “git commit -m “my first commit”. The -m flag allows me add a message to describe the commit. The message should be short and clear. 
+5.	Connect their project to GitHub by copying the repository URL from GitHub and running, “git remote add origin <repository -URL>
+6.	Push their commit to GitHub by running “git push -u origin main” 
+After making any future changes, users should always commit them and push updates to GitHub. they can also use: git status to check the status of their files and git log to view the history of their changes.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 Branching work in Git involves creating a copy of the master code where new features can be added, bug fixed or new ideas tested without affecting the master version of the code. Metaphorically, one can think Git as a tree, containing a main branch (main or master) and branches, which can be merged back into the main branch once working for them is complete. Branching allows multiple developers to wok on different features at the same time, prevents code conflicts, improves code quality through code reviews and allows developers to try new ideas without breaking the main code.
